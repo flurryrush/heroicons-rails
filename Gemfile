@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 # Specify your gem's dependencies in heroicons.gemspec.
 gemspec
 
-rails_version = ENV.fetch("RAILS_VERSION", "6.1")
+rails_version = ENV.fetch("RAILS_VERSION", "7.2")
 
 if rails_version == "main"
   rails_constraint = { github: "rails/rails" }

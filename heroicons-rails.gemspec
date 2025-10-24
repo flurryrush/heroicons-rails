@@ -18,6 +18,6 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = ">= 3.0"
 
-  spec.add_dependency "actionpack", ">= 6.0.0"
-  spec.add_dependency "railties", ">= 6.0.0"
+  spec.add_dependency "actionpack", ">= 7.2.0"
+  spec.add_dependency "railties", ">= 7.2.0"
 end
